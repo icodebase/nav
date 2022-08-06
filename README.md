@@ -1,6 +1,6 @@
 
 <p align="center">
-  <a href="https://nav3.cn/?g">
+  <a href="https://icodebase.github.io/nav/">
     <img src="src/assets/logo.png" width="130" />
   </a>
   <br />
@@ -25,10 +25,10 @@
 ## Preview
 **Themes**
 
-- [Sim online preview](https://nav3.cn/#/sim)
-- [Light online preview](https://nav3.cn/#/light)
-- [Side online preview](https://nav3.cn/#/side)
-- [App online preview](https://nav3.cn/#/app)
+- [Sim online preview](https://icodebase.github.io/nav/#/sim)
+- [Light online preview](https://icodebase.github.io/nav/#/light)
+- [Side online preview](https://icodebase.github.io/nav/#/side)
+- [App online preview](https://icodebase.github.io/nav/#/app)
 
 ![Preview](https://raw.githubusercontent.com/icodebase/public/gh-pages/nav/1.png)
 ![Preview](https://raw.githubusercontent.com/icodebase/public/gh-pages/nav/2.png)
@@ -91,7 +91,7 @@ For specific use, follow the steps [https://github.com/apps/vercel](https://gith
 
 
 ## Backstage
-Modify the routing address to `system`, such as: https://www.nav3.cn/#/light Change to https://www.nav3.cn/#/system
+Modify the routing address to `system`, such as: https://icodebase.github.io/nav/#/light Change to https://icodebase.github.io/nav/#/system
 
 
 ## Bookmark import
