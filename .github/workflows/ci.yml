@@ -20,7 +20,7 @@ jobs:
       run: |
         npm run build
     - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+      uses: icodebase/github-pages-deploy-action@releases/v3
       with:
         ACCESS_TOKEN: ${{ secrets.TOKEN }}
         BRANCH: gh-pages
