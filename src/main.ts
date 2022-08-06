@@ -1,4 +1,4 @@
-/*! https://github.com/xjh22222228 */
+/*! https://github.com/icodebase */
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 

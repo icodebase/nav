@@ -1,5 +1,5 @@
 // Copyright @ 2018-2022 xiejiahe. All rights reserved. MIT license.
-// See https://github.com/xjh22222228/nav
+// See https://github.com/icodebase/nav
 
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core'
 import { getLogoUrl, getTextContent } from 'src/utils'
@@ -63,7 +63,7 @@ export class CreateWebComponent implements OnInit {
       if (!this.visible) {
         this.validateForm.reset()
       }
-  
+
       const detail = this.detail as INavFourProp
       if (this.detail && this.visible) {
         this.validateForm.get('title')!.setValue(getTextContent(detail.name))
@@ -73,7 +73,7 @@ export class CreateWebComponent implements OnInit {
         this.validateForm.get('top')!.setValue(detail.top ?? false)
         this.validateForm.get('ownVisible')!.setValue(detail.ownVisible ?? false)
         this.validateForm.get('rate')!.setValue(detail.rate ?? 5)
-  
+
         if (typeof detail.urls === 'object') {
           let i = 0
           for (let k in detail.urls) {

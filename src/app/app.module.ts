@@ -1,5 +1,5 @@
 // Copyright @ 2018-2022 xiejiahe. All rights reserved. MIT license.
-// See https://github.com/xjh22222228/nav
+// See https://github.com/icodebase/nav
 
 import { BrowserModule } from '@angular/platform-browser'
 import { NgModule } from '@angular/core'
@@ -75,34 +75,34 @@ import { CardComponent } from '../components/card/index.component'
 import { MoveSiteComponent } from '../components/move-site/index.component'
 
 const appRoutes: Routes = [
-  { 
+  {
     path: 'sim',
     component: SimComponent,
   },
-  { 
+  {
     path: 'side',
     component: SideComponent,
   },
-  { 
+  {
     path: 'shortcut',
     component: ShortcutComponent,
   },
-  { 
+  {
     path: 'light',
     component: LightComponent,
     data: {
       renderLinear: true
     }
   },
-  { 
+  {
     path: 'app',
     component: WebpComponent,
   },
-  { 
+  {
     path: 'admin',
     component: AdminComponent,
   },
-  { 
+  {
     path: 'system',
     component: SystemComponent,
     children: [

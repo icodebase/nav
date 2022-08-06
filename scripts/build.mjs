@@ -1,5 +1,5 @@
 // Copyright @ 2018-2022 xiejiahe. All rights reserved. MIT license.
-// See https://github.com/xjh22222228/nav
+// See https://github.com/icodebase/nav
 
 import fs from 'fs'
 import config from '../nav.config.js'
@@ -43,7 +43,7 @@ const authorName = s[s.length - 2]
 const repoName = s[s.length - 1]
 
 const htmlTemplate = `
-  <!-- https://github.com/xjh22222228/nav -->
+  <!-- https://github.com/icodebase/nav -->
   <title>${title}</title>
   <meta name="description" content="${description}">
   <meta name="keywords" content="${keywords}">
@@ -58,7 +58,7 @@ var _hmt = _hmt || [];
 var hm = document.createElement('script');
 hm.async = true;
 hm.src = '${baiduStatisticsUrl}';
-var s = document.getElementsByTagName("script")[0]; 
+var s = document.getElementsByTagName("script")[0];
 s.parentNode.insertBefore(hm, s);
 </script>
 `
@@ -70,7 +70,7 @@ ${cnzzScript}
 `.trim()
 
 let seoTemplate = `
-<div data-url="https://github.com/xjh22222228/nav" style="z-index:-1;position:fixed;top:-10000vh;left:-10000vh;">
+<div data-url="https://github.com/icodebase/nav" style="z-index:-1;position:fixed;top:-10000vh;left:-10000vh;">
 `
 
 async function buildSeo() {

@@ -1,5 +1,5 @@
 // Copyright @ 2018-2022 xiejiahe. All rights reserved. MIT license.
-// See https://github.com/xjh22222228/nav
+// See https://github.com/icodebase/nav
 
 import { Component } from '@angular/core'
 import { Router, ActivatedRoute } from '@angular/router'
@@ -68,7 +68,7 @@ export default class SideComponent {
 
   handleSidebarNav(page, id) {
     this.websiteList[page].id = id
-    this.router.navigate([this.router.url.split('?')[0]], { 
+    this.router.navigate([this.router.url.split('?')[0]], {
       queryParams: {
         page,
         id,

@@ -3,13 +3,13 @@
   "version": "6.0.1",
   "author": "xiejiahe",
   "bugs": {
-    "url": "https://github.com/xjh22222228/nav/issues"
+    "url": "https://github.com/icodebase/nav/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xjh22222228/nav.git"
+    "url": "git+https://github.com/icodebase/nav.git"
   },
-  "homepage": "https://github.com/xjh22222228/nav",
+  "homepage": "https://github.com/icodebase/nav",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --port=7001",
